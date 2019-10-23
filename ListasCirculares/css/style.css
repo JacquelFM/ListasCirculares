@@ -1,0 +1,14 @@
+section {
+    background-color: #1c3d6c;
+    padding: 0%;
+}
+
+#header {
+    border-bottom: 6px solid #c5911e;
+    padding-bottom: 0px;
+}
+
+table {
+    background: #cececd;
+    text-align: center;
+}
