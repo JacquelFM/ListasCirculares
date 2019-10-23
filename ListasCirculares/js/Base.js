@@ -4,7 +4,6 @@ export default class Base {
         this._minutos = minutos;
 
         this._despues = null;
-        this._anterior = null;
     }
 
     get nombre() {
@@ -19,16 +18,8 @@ export default class Base {
         return this._despues;
     }
 
-    get anterior() {
-        return anterior;
-    }
-
     set despues(nuevo) {
         this._despues = nuevo;
-    }
-
-    set anterior(nuevo) {
-        this._anterior = nuevo;
     }
 
     toString() {
